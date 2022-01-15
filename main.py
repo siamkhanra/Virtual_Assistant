@@ -120,7 +120,7 @@ def main():
         speak(f"{MASTER} the time is {strTime}")
         print(strTime)
 
-    elif 'open code' in query.lower():
+    elif 'open program' in query.lower():
         codePath = "D:\Course\ICE all course\ICE 475 Artificial Intelligence & Expert Systems\Project\Task1.py"
         os.startfile(codePath)
 
